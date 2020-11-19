@@ -1,5 +1,8 @@
 body {
-    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 a {
@@ -31,4 +34,8 @@ header .header-icons-container .icons {
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+}
+
+header .icons span {
+    color: white;
 }
