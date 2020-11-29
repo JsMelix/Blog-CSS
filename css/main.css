@@ -4,8 +4,7 @@ body {
     font-family:'roboto';
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
+    
 }
 
 a {
@@ -54,7 +53,7 @@ nav .nav-logo-container {
 }
 
 nav .nav-logo-container img {
-    width: 100px; 
+    width: 110px; 
     margin-top: 10px;
 }
 
@@ -111,5 +110,32 @@ home-main-button a {
     font-size: 18px;
 }
 
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-new-img-container {
+    grid-column: 1;
+}
 
 
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+    
+}
